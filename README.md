@@ -7,9 +7,6 @@ Simple usage:
 ```
 export NVI_API_KEY="XXXXXX-API-key-XXXXXX"
 nuclei -target http://sample.nuclei-target.com --silent | python3  nuclei-nvi.py  
-```
-
-```
 ----------------------------------------
 Template ID: CVE-2014-3206
 Category: http
