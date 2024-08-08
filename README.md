@@ -1,6 +1,8 @@
 # nuclei-nvi
 ### Enriches nuclei CVE results with vulnerability intel from North Vulnerability Intelligence platform
 
+NVI provides current risk score for CVEs based threat intel and exploitation using 30+ open and closed data sources. In addition to risk score, it also provides information such as exploit life cycle and ransomware exploitation. Exploit life cycle is usually POC , Weponized (Already incorporated into tools and automation) and unkown. 
+
 Make sure you get an API Key from https://www.northinfosec.com/ before start using.
 
 Simple usage:
