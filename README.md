@@ -1,8 +1,11 @@
 # nuclei-nvi
-### Enriches nuclei CVE results with vulnerability intel from NVI platform - https://www.northinfosec.com/ 
+### Enriches nuclei CVE results with vulnerability intel from North Vulnerability Intelligence platform
+
+Make sure you get an API Key from https://www.northinfosec.com/ before start using.
 
 Simple usage:
 
+export NVI_API_KEY="XXXXXX-API-key-XXXXXX"
 nuclei -target http://sample.nuclei-target.com --silent | python3  nuclei-nvi.py  
 
 ```
